@@ -50,13 +50,14 @@
             this.mainLayout.Controls.Add(this.configurationScriptInputBox, 1, 1);
             this.mainLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainLayout.Location = new System.Drawing.Point(0, 0);
+            this.mainLayout.Margin = new System.Windows.Forms.Padding(4);
             this.mainLayout.Name = "mainLayout";
             this.mainLayout.RowCount = 4;
             this.mainLayout.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.mainLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.mainLayout.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.mainLayout.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.mainLayout.Size = new System.Drawing.Size(894, 495);
+            this.mainLayout.Size = new System.Drawing.Size(1192, 609);
             this.mainLayout.TabIndex = 0;
             // 
             // polygonClipButton
@@ -66,9 +67,10 @@
             this.polygonClipButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.polygonClipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.polygonClipButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.polygonClipButton.Location = new System.Drawing.Point(598, 460);
+            this.polygonClipButton.Location = new System.Drawing.Point(798, 568);
+            this.polygonClipButton.Margin = new System.Windows.Forms.Padding(4);
             this.polygonClipButton.Name = "polygonClipButton";
-            this.polygonClipButton.Size = new System.Drawing.Size(293, 32);
+            this.polygonClipButton.Size = new System.Drawing.Size(390, 37);
             this.polygonClipButton.TabIndex = 4;
             this.polygonClipButton.Text = "Interpret as polygon clip";
             this.polygonClipButton.UseVisualStyleBackColor = true;
@@ -77,10 +79,11 @@
             // resultPictureBox
             // 
             this.resultPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resultPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.resultPictureBox.Location = new System.Drawing.Point(4, 4);
+            this.resultPictureBox.Margin = new System.Windows.Forms.Padding(4);
             this.resultPictureBox.Name = "resultPictureBox";
             this.mainLayout.SetRowSpan(this.resultPictureBox, 4);
-            this.resultPictureBox.Size = new System.Drawing.Size(589, 489);
+            this.resultPictureBox.Size = new System.Drawing.Size(786, 601);
             this.resultPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.resultPictureBox.TabIndex = 1;
             this.resultPictureBox.TabStop = false;
@@ -90,9 +93,10 @@
             this.configurationScriptLabel.AutoSize = true;
             this.configurationScriptLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.configurationScriptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.configurationScriptLabel.Location = new System.Drawing.Point(598, 0);
+            this.configurationScriptLabel.Location = new System.Drawing.Point(798, 0);
+            this.configurationScriptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.configurationScriptLabel.Name = "configurationScriptLabel";
-            this.configurationScriptLabel.Size = new System.Drawing.Size(293, 24);
+            this.configurationScriptLabel.Size = new System.Drawing.Size(390, 29);
             this.configurationScriptLabel.TabIndex = 2;
             this.configurationScriptLabel.Text = "Configuration script";
             this.configurationScriptLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -104,9 +108,10 @@
             this.lineClipButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lineClipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lineClipButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lineClipButton.Location = new System.Drawing.Point(598, 422);
+            this.lineClipButton.Location = new System.Drawing.Point(798, 523);
+            this.lineClipButton.Margin = new System.Windows.Forms.Padding(4);
             this.lineClipButton.Name = "lineClipButton";
-            this.lineClipButton.Size = new System.Drawing.Size(293, 32);
+            this.lineClipButton.Size = new System.Drawing.Size(390, 37);
             this.lineClipButton.TabIndex = 3;
             this.lineClipButton.Text = "Interpret as line clip";
             this.lineClipButton.UseVisualStyleBackColor = true;
@@ -118,23 +123,26 @@
             this.configurationScriptInputBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.configurationScriptInputBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.configurationScriptInputBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.configurationScriptInputBox.Location = new System.Drawing.Point(598, 27);
+            this.configurationScriptInputBox.Location = new System.Drawing.Point(798, 33);
+            this.configurationScriptInputBox.Margin = new System.Windows.Forms.Padding(4);
             this.configurationScriptInputBox.Multiline = true;
             this.configurationScriptInputBox.Name = "configurationScriptInputBox";
             this.configurationScriptInputBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.configurationScriptInputBox.Size = new System.Drawing.Size(293, 389);
+            this.configurationScriptInputBox.Size = new System.Drawing.Size(390, 482);
             this.configurationScriptInputBox.TabIndex = 5;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(894, 495);
+            this.ClientSize = new System.Drawing.Size(1192, 609);
             this.Controls.Add(this.mainLayout);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
-            this.Text = "Konstantin Tomashevich CG Lab 5";
+            this.Text = "Dmitriy Rogozenko CG Lab 5";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.mainLayout.ResumeLayout(false);
             this.mainLayout.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.resultPictureBox)).EndInit();

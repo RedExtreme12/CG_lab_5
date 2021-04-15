@@ -107,5 +107,12 @@ namespace Lab5
             resultPictureBox.Image = drawer.End();
             resultPictureBox.Invalidate();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
