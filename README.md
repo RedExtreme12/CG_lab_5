@@ -16,7 +16,9 @@
 
 Скрипт отсечения отрезков должен иметь следующий формат:
 
-"line1X0 line1Y0 line1X1 line1Y1
+```
+line1X0 line1Y0 line1X1 line1Y1
 ...
 lineNX0 lineNY0 lineNX1 lineNY1
-clippingRectX0 clippingRectY0 clippingRectX1 clippingRectY1"
+clippingRectX0 clippingRectY0 clippingRectX1 clippingRectY1
+```
